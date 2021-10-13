@@ -4,9 +4,19 @@
         <title>My google search</title>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="hrefes">
+            <a href="expand_search.html">Розширений пошук</a>
+            <a href="images_search.html">Пошук зображень</a>
+        </div>
+        <div class="form">
+            <form action="https://google.com/search" metod="get">
+                <h1 style="font-family: roboto, sans-serif; font-size: 40px; text-align: center; color: #7922CC;">My Google Search</h1>
+                <input type="text" class="form-search" name="q">
+                    <div class="button">
+                        <input type="submit" class="button-search" value="Пошук Google" name="btnK">
+                        <input type="submit" class="button-search" value="Мені пощастить" name="btnI">
+                    </div>
+            </form>
+        </div>
     </body>
 </html>
