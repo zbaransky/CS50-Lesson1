@@ -2,6 +2,35 @@
     box-sizing: border-box;
 }
 
+.language {
+    position: relative;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.references {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.search {
+    display: flex;
+    width: 550px;
+    border-radius: 25px;
+    cursor: text;
+    border: rgb(197, 196, 196) solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input {
     display: block;
 }
@@ -24,7 +53,7 @@ input[type="submit"] {
 }
 
 .submit_img {
-    width: 210px;
+    width: 220px;
 }
 
 input[type="text"] {
@@ -42,26 +71,7 @@ input[type="submit"]:hover {
     border: rgb(197, 196, 196) solid 1px;
 }
 
-.search {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    margin-top: -170px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.new_page {
-     text-align: end;
-     margin-right: 10px;
- }
-
-a {
-     display: inline-block;
-     margin-left: 10px;
- }
-
- .field_search {
+ .search {
      display: flex;
      width: 550px;
      border-radius: 25px;
@@ -71,13 +81,10 @@ a {
      margin-right: auto;
  }
 
- .field_search:hover {
-    box-shadow: 0px 0px 25px 1px rgba(34, 60, 80, 0.22);
- }
-
- .input_btn {
-     display: flex;
-     width: 310px;
+ .button {
+    padding:10px;
+    display: flex;
+     width: 300px;
      margin-left: auto;
      margin-right: auto;
  }
@@ -86,8 +93,8 @@ a {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 20px;
-     width: 270px;
+     margin-bottom: 30px;
+     width: 370px;
  }
 
  .magglas {
@@ -99,3 +106,8 @@ a {
      fill: currentColor;
      
  }
+
+ a {
+    display: inline-block;
+    margin-left: 10px;
+}
